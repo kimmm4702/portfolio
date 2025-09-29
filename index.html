@@ -3,26 +3,76 @@
 <head>
 	<title>Portfolio</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" media="screen" href="css/styles.css">
+	<link rel="stylesheet" media="screen" href="css/screen.css">
 </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="index.html">Homepage</a></li>
-				<li><a href="aboutme.html">About Me</a></li>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="skills.html">Skills</a></li>
-				<li><a href="contact.html">Contact Me</a></li>
-			</ul>
-	</header>
-		<div class="title">
-			<h1>Kimberly Dominguez</h1>
-			<h3>Web Developer</h3>
-			<div class="selfie">
-				<figure>
-					<img src="media/myself.jpg" alt="Protrait picture of myself after graduation">
-				</figure>
-			</div>
+	<div class="navbar">
+		<nav class="nav">
+			<a href="index.html">Homepage</a>
+			<a href="index.html#proj">Projects</a>
+			<a href="index.html#skill">Skills</a>
+			<a href="index.html#cont">Contact Me</a>
+		</nav>
+	</div>
+	<div class="home">
+		<div class="intro">
+			<h1 class="title-name">Kimberly Dominguez</h1>
+			<h3>Web Developer/Data Analyst</h3>
+			<a href="media/resume.pdf" target="_blank" ><button>Resume</button></a>
 		</div>
+		<div class="selfie">
+			<figure>
+				<img src="media/myself.jpg" alt="Protrait picture of myself after graduation">
+			</figure>
+		</div> 
+	</div>
+	<div class="project">
+		<h3 id="proj">Projects</h3>
+		<section class="webdev-section"> 
+			<h2>Web Redesign - Team Project</h2>
+			<p><i>April - May 2025</i></p>
+			<ul>
+				<li>Collaborated in a group of three to redesign a poorly designed hotel website</li>
+				<li>Used UX and design principles to improve layout, navigation, form usability, and accessibility</li>
+				<li>Managed code with Git and GitHub, using branches, pull request, and peer reviews</li>
+			</ul>
+		</section>
+		<section class="data-section">
+			<h2>Data Analysis - Individual Project</h2>
+			<p><i>December 2024</i></p>
+			<ul>
+				<li>Analyzed a dataset of 10,000+ movies using Python (Pandas, Matplotlib, Seaborn)</li>
+				<li>Cleaned and transformed the data to prepare it for analysis</li>
+				<li>Created visualizations to communicate findings and insights</li>
+			</ul>
+		</section>
+	</div>
+	<div class="skills">
+		<h1 id="skill">Skills</h1>
+		<h3 >Technical Skills</h3>
+			<ul class="skill-grid">
+				<li>Excel/Word/Power Point</li>
+				<li>Python/Java/Go</li>
+				<li>HTML/CSS/JavaScript</li>
+				<li>Linux/Ubuntu/SQL</li>
+				<li>GitHub/Github Pages</li>
+			</ul>
+		<h3>Soft Skills</h3>
+			<ul class="skill-grid">
+				<li>Communication</li>
+				<li>Problem Solving</li>
+				<li>Collaboration</li>
+				<li>Organizational</li>
+				<li>Team Building</li>
+				<li>Leadership</li>
+				<li>Bilingual in English and Spanish</li>
+			</ul>
+	</div>
+	<section class="contact">
+		<h3 id="cont">Contact Me</h3>
+		<p>Email: kimberlyydominguezz@gmail.com</p>
+	</section>
+	<section class="footer">
+		<p>© 2025 Kimberly Dominguez</p>
+	</section>
 </body>
